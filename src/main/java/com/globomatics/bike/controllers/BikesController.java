@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/bike")
+@RequestMapping("/api/bikes")
 public class BikesController {
     @Autowired
     BikeRepository bikeRepository;
